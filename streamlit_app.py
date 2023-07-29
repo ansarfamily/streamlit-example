@@ -20,19 +20,6 @@ st.header('My header')
 st.subheader('My sub')
 st.code('for i in range(8): foo()')
 
-# * optional kwarg unsafe_allow_html = True
-
-st.form('my_form_identifier')
-st.form_submit_button('Submit to me')
-st.container()
-st.columns(spec)
-  col1, col2 = st.columns(2)
-  col1.subheader('Columnisation')
-st.expander('Expander')
-  with st.expander('Expand'):
-    st.write('Juicy deets')
-
-
 st.line_chart(data)
 st.area_chart(data)
 st.bar_chart(data)

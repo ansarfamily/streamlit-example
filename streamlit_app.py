@@ -8,6 +8,10 @@ import streamlit as st
 # Ansar Family Analytics 💚
 
 """
+# Magic commands implicitly `st.write()`
+''' _This_ is some __Markdown__ '''
+a=3
+'dataframe:', data
 
 st.text('Fixed width text')
 st.markdown('_Markdown_') # see *

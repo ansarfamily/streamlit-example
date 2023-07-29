@@ -8,10 +8,9 @@ import streamlit as st
 # Ansar Family Analytics 💚
 
 """
-# Magic commands implicitly `st.write()`
-''' _This_ is some __Markdown__ '''
-a=3
-'dataframe:', data
+st.divider()  # 👈 Draws a horizontal rule
+
+
 
 st.text('Fixed width text')
 st.markdown('_Markdown_') # see *
@@ -24,15 +23,3 @@ st.header('My header')
 st.subheader('My sub')
 st.code('for i in range(8): foo()')
 
-st.line_chart(data)
-st.area_chart(data)
-st.bar_chart(data)
-st.pyplot(fig)
-st.altair_chart(data)
-st.vega_lite_chart(data)
-st.plotly_chart(data)
-st.bokeh_chart(data)
-st.pydeck_chart(data)
-st.deck_gl_chart(data)
-st.graphviz_chart(data)
-st.map(data)
